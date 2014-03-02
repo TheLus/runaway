@@ -30,3 +30,4 @@ var theta = Math.atan2(y - mY, x - mX);
 	btn[0].style.left = "" + (x + d * Math.cos(theta) + (fx - x) * 0.05 - btn[0].offsetWidth / 2) + "px";
 	btn[0].style.top = "" + (y + d * Math.sin(theta) + (fy - y) * 0.1 - btn[0].offsetHeight / 2) + "px";
 }
+
